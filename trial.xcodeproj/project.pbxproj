@@ -14,6 +14,7 @@
 		FDE3ED941B7CEB9E0060FAAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE3ED931B7CEB9E0060FAAB /* Images.xcassets */; };
 		FDE3ED971B7CEB9E0060FAAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE3ED951B7CEB9E0060FAAB /* LaunchScreen.xib */; };
 		FDE3EDA31B7CEB9E0060FAAB /* trialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE3EDA21B7CEB9E0060FAAB /* trialTests.m */; };
+		FDE3EDAD1B7D07C90060FAAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE3EDAC1B7D07C90060FAAB /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FDE3ED9C1B7CEB9E0060FAAB /* trialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE3EDA11B7CEB9E0060FAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDE3EDA21B7CEB9E0060FAAB /* trialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trialTests.m; sourceTree = "<group>"; };
+		FDE3EDAC1B7D07C90060FAAB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE3EDAD1B7D07C90060FAAB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		FDE3ED7A1B7CEB9E0060FAAB = {
 			isa = PBXGroup;
 			children = (
+				FDE3EDAC1B7D07C90060FAAB /* AVFoundation.framework */,
 				FDE3ED851B7CEB9E0060FAAB /* trial */,
 				FDE3ED9F1B7CEB9E0060FAAB /* trialTests */,
 				FDE3ED841B7CEB9E0060FAAB /* Products */,
